@@ -22,6 +22,12 @@
       .content
         %p#page-top
           = image_tag("page-top.png", width: 69, height: 40)
+        %p#social-widgets
+          - url = "http://junemami.github.io/same-times/"
+          :plain
+            <a href="http://b.hatena.ne.jp/entry/http://junemami.github.io/same-times/" class="hatena-bookmark-button" data-hatena-bookmark-title="Same Times" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="en" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+            <div class="fb-like" data-href="#{url}" data-width="100" data-layout="button_count" data-show-faces="false" data-send="false"></div>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="#{url}">Tweet</a>
         %p#credit
           Same Times is made by
           %a( href="http://twitter.com/june29" title="@june29" )
@@ -35,3 +41,15 @@
           %a( href="http://github.com/junemami/same-times" title="GitHub" )><
             GitHub
           , please fork us!
+
+    :plain
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=152041561520656";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>

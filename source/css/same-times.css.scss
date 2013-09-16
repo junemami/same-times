@@ -46,6 +46,16 @@ footer {
     cursor: pointer;
   }
 
+  #social-widgets {
+    * {
+      float: left;
+    }
+  }
+
+  .fb-like {
+    margin-left: 8px;
+  }
+
   #credit {
     letter-spacing: 0.1em;
     font-family: 'IM Fell DW Pica', serif;
