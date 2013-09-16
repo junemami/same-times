@@ -22,7 +22,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #{image_url("bg-body.png")} center top repeat-y;
+  min-width: 1180px;
+  background: #{image_url("bg-body.png")} center top;
 }
 
 header {
