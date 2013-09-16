@@ -1,0 +1,33 @@
+- moments = data.moments.moments
+- people  = data.people.people
+
+#moments
+  - moments.each do |moment|
+    %section.moment
+      .box.left
+        .photo
+          %p
+            = link_to image_tag(moment.left.photo_url, width: 500, height: 500), moment.left.photo_link
+          %p.credit
+            = link_to people.left.link do
+              = image_tag(people.left.icon_url, width: 48, height: 48)
+              %span
+                = people.left.name
+      .box.right
+        .photo
+          %p
+            = link_to image_tag(moment.right.photo_url, width: 500, height: 500), moment.right.photo_link
+          %p.credit
+            = link_to people.right.link do
+              %span
+                = people.right.name
+              = image_tag(people.right.icon_url, width: 48, height: 48)
+      %p.taken-at
+        %span.year
+          = moment.taken_at.year
+        %br
+        %span.date
+          = moment.taken_at.date
+        %br
+        %span.time
+          = moment.taken_at.time

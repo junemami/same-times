@@ -1,0 +1,37 @@
+!!! 5
+%html
+  %head
+    %meta(charset="utf-8")
+    %meta(content="IE=edge,chrome=1" http-equiv="X-UA-Compatible")
+    %title
+      = current_page.data.title || "Same Times"
+    :plain
+      <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' rel='stylesheet' type='text/css'>
+    = stylesheet_link_tag "same-times"
+    = javascript_include_tag  "all"
+    %link( rel="shortcut icon" href="#{image_path('favicon.ico')}" )
+
+  %body(class="#{page_classes}")
+    %header
+      .content
+        = link_to image_tag("logo.png", width: 640, height: 171, alt: "Same Times"), "/"
+    #main
+      .content
+        = yield
+    %footer
+      .content
+        %p#page-top
+          = image_tag("page-top.png", width: 69, height: 40)
+        %p#credit
+          Same Times is made by
+          %a( href="http://twitter.com/june29" title="@june29" )
+            @june29
+          and
+          %a( href="http://twitter.com/mamipeko" title="@mamipeko" )
+            @mamipeko
+          with lots of love.
+          %br
+          Source code is on&nbsp;
+          %a( href="http://github.com/junemami/same-times" title="GitHub" )><
+            GitHub
+          , please fork us!

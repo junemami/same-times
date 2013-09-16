@@ -1,0 +1,9 @@
+people:
+  left:
+    name: "june29"
+    link: "http://twitter.com/june29"
+    icon_url: "https://si0.twimg.com/profile_images/3433607286/e4cd5a708d9644957545b9b1165cf196.jpeg"
+  right:
+    name: "mamipeko"
+    link: "http://twitter.com/mamipeko"
+    icon_url: "https://si0.twimg.com/profile_images/378800000363462963/6d5b758b2a9e81e229ceb33f379f584f.jpeg"
