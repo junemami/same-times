@@ -1,31 +1,11 @@
 moments:
   - taken_at:
-      year: "2013"
-      date: "09/01"
-      time: "14:14"
+      year: "2012"
+      date: "01/01"
+      time: "00:00"
     left:
-      photo_url: "http://distilleryimage11.ak.instagram.com/7621937c12c511e3a0c022000a1f918d_7.jpg"
-      photo_link: "http://instagram.com/p/dtKgYbKpEL/"
+      photo_url: "http://kotobank.jp/i/talent/2000042455.jpg"
+      photo_link: "http://ja.wikipedia.org/wiki/ビートたけし"
     right:
-      photo_url: "http://distilleryimage7.ak.instagram.com/114c7ee412c511e38ad922000aeb0eae_7.jpg"
-      photo_link: "http://instagram.com/p/dtKLu0g9Yn/"
-  - taken_at:
-      year: "2013"
-      date: "07/21"
-      time: "12:59"
-    left:
-      photo_url: "http://distilleryimage4.ak.instagram.com/f3041072f1b911e2b3d922000a9f309f_7.jpg"
-      photo_link: "http://instagram.com/p/cA4eT3KpBc/"
-    right:
-      photo_url: "http://distilleryimage0.ak.instagram.com/247b7b36f1ba11e285e022000a9e51fb_7.jpg"
-      photo_link: "http://instagram.com/p/cA4ocPg9UI/"
-  - taken_at:
-      year: "2013"
-      date: "07/05"
-      time: "22:08"
-    left:
-      photo_url: "http://distilleryimage6.ak.instagram.com/1b84e8f2e57411e2afff22000aa80361_7.jpg"
-      photo_link: "http://instagram.com/p/bYqrUMKpNm/"
-    right:
-      photo_url: "http://distilleryimage6.ak.instagram.com/2d7dc7eae57411e2b4f522000aeb1172_7.jpg"
-      photo_link: "http://instagram.com/p/bYqu_0A9eq/"
+      photo_url: "http://talent.c.yimg.jp/images/talent/201309/large/m94/m94-0399-130902.jpg"
+      photo_link: "http://ja.wikipedia.org/wiki/ビートきよし"
