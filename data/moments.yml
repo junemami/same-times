@@ -14,11 +14,11 @@ moments:
       date: "07/21"
       time: "12:59"
     left:
-      photo_url: "http://distilleryimage4.ak.instagram.com/f3041072f1b911e2b3d922000a9f309f_7.jpg"
-      photo_link: "http://instagram.com/p/cA4eT3KpBc/"
-    right:
       photo_url: "http://distilleryimage0.ak.instagram.com/247b7b36f1ba11e285e022000a9e51fb_7.jpg"
       photo_link: "http://instagram.com/p/cA4ocPg9UI/"
+    right:
+      photo_url: "http://distilleryimage4.ak.instagram.com/f3041072f1b911e2b3d922000a9f309f_7.jpg"
+      photo_link: "http://instagram.com/p/cA4eT3KpBc/"
   - taken_at:
       year: "2013"
       date: "07/05"
